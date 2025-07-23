@@ -24,7 +24,7 @@
 ### 1. 构建镜像
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/arschlochnop/novnc4playwright.git
 cd novnc4playwright
 # 默认构建（使用官方推荐版本）
 docker build -t novnc4playwright .
@@ -102,6 +102,9 @@ novnc4playwright/
 ## Quick Start
 
 ```bash
+git clone https://github.com/arschlochnop/novnc4playwright.git
+cd novnc4playwright
+
 docker build -t novnc4playwright .
 # Or with custom versions:
 docker build --build-arg PLAYWRIGHT_VERSION=1.42.0-jammy \
